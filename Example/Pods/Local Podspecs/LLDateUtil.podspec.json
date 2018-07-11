@@ -1,0 +1,22 @@
+{
+  "name": "LLDateUtil",
+  "version": "0.1.0",
+  "summary": "A short description of LLDateUtil.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/1250124009@qq.com/LLDateUtil",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "1250124009@qq.com": "lile@icourt.cc"
+  },
+  "source": {
+    "git": "https://github.com/1250124009@qq.com/LLDateUtil.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LLDateUtil/Classes/**/*"
+}

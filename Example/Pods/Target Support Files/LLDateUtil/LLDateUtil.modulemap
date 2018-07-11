@@ -1,0 +1,6 @@
+framework module LLDateUtil {
+  umbrella header "LLDateUtil-umbrella.h"
+
+  export *
+  module * { export * }
+}

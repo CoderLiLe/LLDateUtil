@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		1372A95AB41FB1B6A1A89D4A /* Pods_LLDateUtil_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LLDateUtil_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CA18820144D90A5B5086C7A /* Pods-LLDateUtil_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLDateUtil_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LLDateUtil_Example/Pods-LLDateUtil_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		5A85F0F849C8DBE1D4460A48 /* LLDateUtil.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LLDateUtil.podspec; path = ../LLDateUtil.podspec; sourceTree = "<group>"; };
+		5A85F0F849C8DBE1D4460A48 /* LLDateUtil.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LLDateUtil.podspec; path = ../LLDateUtil.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58A195388D20070C39A /* LLDateUtil_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LLDateUtil_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,10 +63,10 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A261DD02E5A8750D8E528022 /* Pods-LLDateUtil_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLDateUtil_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LLDateUtil_Tests/Pods-LLDateUtil_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		CABFAB7B439252940FEEBEFC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		CABFAB7B439252940FEEBEFC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		CB5F4065B3B6DF0E981634D4 /* Pods_LLDateUtil_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LLDateUtil_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D38234A1151BF51EFE2C6615 /* Pods-LLDateUtil_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLDateUtil_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-LLDateUtil_Example/Pods-LLDateUtil_Example.release.xcconfig"; sourceTree = "<group>"; };
-		DDD1F872EAC73A31874CC9EF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		DDD1F872EAC73A31874CC9EF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
