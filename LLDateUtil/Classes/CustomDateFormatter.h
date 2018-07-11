@@ -117,7 +117,7 @@
 + (NSInteger)secondsByTimeString:(NSString *)timeStr;
 
 // 返回类似“今天”，“明天”， “昨天”， “XX月XX日”， “XXXX年XX月XX日”
-+ (NSString *)dateToStringWithDateStr:(NSString *)dateStr;
+//+ (NSString *)dateToStringWithDateStr:(NSString *)dateStr;
 /// 判断是否是今年
 + (BOOL)isCurrentYearWithYYYYMMDD:(NSString *)yyyymmdd;
 /// 判断是否是今年
@@ -149,7 +149,7 @@
 // 将东八区的时间转为格林尼治时间
 + (NSDate *)transformDateToGMDate:(NSDate *)date;
 
-+ (NSString *)beginAndEndDateStrWithBeginDate:(NSDate *)beginDate;
+//+ (NSString *)beginAndEndDateStrWithBeginDate:(NSDate *)beginDate;
 
 /// 获取以北京时间为标准的日历
 + (NSCalendar *)beijingCalendar;

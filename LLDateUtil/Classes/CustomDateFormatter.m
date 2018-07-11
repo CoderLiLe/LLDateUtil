@@ -10,6 +10,20 @@
 #import "NSDate+NPExtension.h"
 #import "JTDateHelper.h"
 
+#define SECOND 1
+#define MINUTE (60 * SECOND)
+#define HOUR (60 * MINUTE)
+#define DAY (24 * HOUR)
+#define WEEK (7 * DAY)
+
+#if __LP64__ || (TARGET_OS_EMBEDDED && !TARGET_OS_IPHONE) || TARGET_OS_WIN32 || NS_BUILD_32_LIKE_64
+#define PRI_NSInteger   "ld"
+#define PRI_NSUInteger  "lu"
+#else
+#define PRI_NSInteger   "d"
+#define PRI_NSUInteger  "u"
+#endif
+
 @implementation CustomDateFormatter
 
 -(id)init {
@@ -713,32 +727,32 @@
     return h * 60 * 60 + m * 60 + s;
 }
 
-+ (NSString *)dateToStringWithDateStr:(NSString *)dateStr
-{
-    NSString *returnStr;
-    NSString *todayStr = [CustomDateFormatter yMdByDate:[NSDate date]];
-    NSString *yestodayStr = [CustomDateFormatter yMdByDate:[NSDate dateWithTimeInterval:-24*60*60 sinceDate:[NSDate date]]];
-    NSString *tommowStr = [CustomDateFormatter yMdByDate:[NSDate dateWithTimeInterval:24*60*60 sinceDate:[NSDate date]]];
-    if ([todayStr isEqualToString:dateStr]) {
-        returnStr = @"今天";
-    } else if ([yestodayStr isEqualToString:dateStr]) {
-        returnStr = @"昨天";
-    } else if ([tommowStr isEqualToString:dateStr]) {
-        returnStr = @"明天";
-    } else {
-        NSArray *dateArr = [dateStr componentsSeparatedByString:@"-"];
-        if (dateArr.count<3) {
-            return dateStr;
-            //防止闪退
-        }
-        if ([CustomDateFormatter isCurrentYearWithYYYYMMDD:dateStr]) {
-            returnStr = [NSString stringWithFormat:@"%@月%@日", [dateArr[1] formatMonth], [dateArr[2] formatDay]];
-        } else {
-            returnStr = [NSString stringWithFormat:@"%@年%@月%@日", dateArr[0], [dateArr[1] formatMonth], [dateArr[2] formatDay]];
-        }
-    }
-    return returnStr;
-}
+//+ (NSString *)dateToStringWithDateStr:(NSString *)dateStr
+//{
+//    NSString *returnStr;
+//    NSString *todayStr = [CustomDateFormatter yMdByDate:[NSDate date]];
+//    NSString *yestodayStr = [CustomDateFormatter yMdByDate:[NSDate dateWithTimeInterval:-24*60*60 sinceDate:[NSDate date]]];
+//    NSString *tommowStr = [CustomDateFormatter yMdByDate:[NSDate dateWithTimeInterval:24*60*60 sinceDate:[NSDate date]]];
+//    if ([todayStr isEqualToString:dateStr]) {
+//        returnStr = @"今天";
+//    } else if ([yestodayStr isEqualToString:dateStr]) {
+//        returnStr = @"昨天";
+//    } else if ([tommowStr isEqualToString:dateStr]) {
+//        returnStr = @"明天";
+//    } else {
+//        NSArray *dateArr = [dateStr componentsSeparatedByString:@"-"];
+//        if (dateArr.count<3) {
+//            return dateStr;
+//            //防止闪退
+//        }
+//        if ([CustomDateFormatter isCurrentYearWithYYYYMMDD:dateStr]) {
+//            returnStr = [NSString stringWithFormat:@"%@月%@日", [dateArr[1] formatMonth], [dateArr[2] formatDay]];
+//        } else {
+//            returnStr = [NSString stringWithFormat:@"%@年%@月%@日", dateArr[0], [dateArr[1] formatMonth], [dateArr[2] formatDay]];
+//        }
+//    }
+//    return returnStr;
+//}
 
 + (BOOL)isCurrentYearWithYYYYMMDD:(NSString *)yyyymmdd
 {
@@ -871,18 +885,18 @@
     return [dateFormatter dateFromString:dateStr];
 }
 
-+ (NSString *)beginAndEndDateStrWithBeginDate:(NSDate *)beginDate
-{
-    NSString *beginTime = [self yMdByDate:beginDate];
-    NSArray *beginDateArr = [beginTime componentsSeparatedByString:@"-"];
-    NSString *beginTimeFromat = [NSString formatDateWithMonthStr:beginDateArr[1] dayStr:beginDateArr[2]];
-    
-    NSDate *endDate = [NSDate dateWithTimeInterval:6*DAY sinceDate:beginDate];
-    NSString *endTime = [CustomDateFormatter yMdByDate:endDate];
-    NSArray *endDateArr = [endTime componentsSeparatedByString:@"-"];
-    NSString *endTimeFromat = [NSString formatDateWithMonthStr:endDateArr[1] dayStr:endDateArr[2]];
-    return [NSString stringWithFormat:@"%@ - %@", beginTimeFromat, endTimeFromat];
-}
+//+ (NSString *)beginAndEndDateStrWithBeginDate:(NSDate *)beginDate
+//{
+//    NSString *beginTime = [self yMdByDate:beginDate];
+//    NSArray *beginDateArr = [beginTime componentsSeparatedByString:@"-"];
+//    NSString *beginTimeFromat = [NSString formatDateWithMonthStr:beginDateArr[1] dayStr:beginDateArr[2]];
+//
+//    NSDate *endDate = [NSDate dateWithTimeInterval:6*DAY sinceDate:beginDate];
+//    NSString *endTime = [CustomDateFormatter yMdByDate:endDate];
+//    NSArray *endDateArr = [endTime componentsSeparatedByString:@"-"];
+//    NSString *endTimeFromat = [NSString formatDateWithMonthStr:endDateArr[1] dayStr:endDateArr[2]];
+//    return [NSString stringWithFormat:@"%@ - %@", beginTimeFromat, endTimeFromat];
+//}
 
 + (NSString *)daysIntervalStringWithStr:(NSString *)str foratter:(NSString *)formatter
 {

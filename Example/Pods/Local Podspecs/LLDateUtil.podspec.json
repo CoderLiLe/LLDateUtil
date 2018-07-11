@@ -1,6 +1,6 @@
 {
   "name": "LLDateUtil",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "This is LLDateUtil.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/1250124009@qq.com/LLDateUtil",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/CoderLiLe/LLDateUtil.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"

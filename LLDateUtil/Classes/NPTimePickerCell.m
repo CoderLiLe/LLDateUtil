@@ -7,6 +7,7 @@
 //
 
 #import "NPTimePickerCell.h"
+#import "CustomDateFormatter.h"
 #import "JTDateHelper.h"
 #import "NSDate+NPExtension.h"
 
@@ -256,13 +257,13 @@ static NSString *const DAYWEEK = @"d日 eee";
 - (CGFloat) pickerView:(UIPickerView *)pickerView widthForComponent:(NSInteger)component{
     if (self.timePickerType == NPTimePickerTypeYearMonth_DayWeek) {
         if (0 == component) {
-            return self.contentView.width - kDayWeekViewWidth*2;
+            return self.contentView.frame.size.width - kDayWeekViewWidth*2;
         } else {
             return kDayWeekViewWidth;
         }
     } else if (self.timePickerType == NPTimePickerTypeYearMonthDayWeek_Hour_Minute) {
         if (0 == component) {
-            return self.contentView.width - kHourOrMinuteViewWidth*2;
+            return self.contentView.frame.size.width - kHourOrMinuteViewWidth*2;
         }
         return kHourOrMinuteViewWidth;
     } else {
@@ -344,7 +345,7 @@ static NSString *const DAYWEEK = @"d日 eee";
 
 - (UIView *)yearMonth_DayWeekViewForRow:(NSInteger)row forComponent:(NSInteger)component  reusingView:(UIView *)view
 {
-    double cellWidth =component == 0 ? self.contentView.width - kDayWeekViewWidth*2 : kDayWeekViewWidth;
+    double cellWidth =component == 0 ? self.contentView.frame.size.width - kDayWeekViewWidth*2 : kDayWeekViewWidth;
     UILabel *text = [[UILabel alloc]initWithFrame:CGRectMake(0, 0, cellWidth, 30)];
     text.textAlignment = NSTextAlignmentCenter;
     switch (component) {
@@ -367,7 +368,7 @@ static NSString *const DAYWEEK = @"d日 eee";
 
 - (UIView *)yearMonthDayWeek_Hour_MinuteViewForRow:(NSInteger)row forComponent:(NSInteger)component  reusingView:(UIView *)view
 {
-    double cellWidth =component == 0? self.contentView.width - kHourOrMinuteViewWidth*2 : kHourOrMinuteViewWidth;
+    double cellWidth =component == 0? self.contentView.frame.size.width - kHourOrMinuteViewWidth*2 : kHourOrMinuteViewWidth;
     UILabel *text = [[UILabel alloc]initWithFrame:CGRectMake(0, 0, cellWidth, 30)];
     text.textAlignment = NSTextAlignmentCenter;
     switch (component) {

@@ -9,6 +9,12 @@
 #import "NSDate+NPExtension.h"
 #import "CustomDateFormatter.h"
 
+#define SECOND 1
+#define MINUTE (60 * SECOND)
+#define HOUR (60 * MINUTE)
+#define DAY (24 * HOUR)
+#define WEEK (7 * DAY)
+
 /// 一天的总秒数
 static NSTimeInterval secondsPerDay = 24*3600;
 

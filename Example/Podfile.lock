@@ -1,5 +1,5 @@
 PODS:
-  - LLDateUtil (0.1.0)
+  - LLDateUtil (0.1.1)
 
 DEPENDENCIES:
   - LLDateUtil (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  LLDateUtil: 3a1154b2ea100c88ff21b190a95f3c3bbfe2bd6d
+  LLDateUtil: 7660c48c9f0260079e9d5be954e69e0aa4b0f6cd
 
 PODFILE CHECKSUM: 01eb4c45513ea406ed16745a1d625e25ff87e815
 
