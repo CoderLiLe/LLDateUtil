@@ -55,7 +55,6 @@
 - (BOOL)isSameWeekWithWeekBeginDate:(NSDate *)date;
 /**
  获取某个日期的整点 2018年10月 4日 11：00
- @param date 需要处理的时间
  */
 - (NSDate *)hourlyDate;
 /**
