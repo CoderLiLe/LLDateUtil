@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LLDateUtil_Example' do
+  pod 'LLDateUtil', :path => '../'
+
+  target 'LLDateUtil_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
