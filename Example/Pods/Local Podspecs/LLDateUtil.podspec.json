@@ -1,7 +1,7 @@
 {
   "name": "LLDateUtil",
   "version": "0.1.0",
-  "summary": "A short description of LLDateUtil.",
+  "summary": "This is LLDateUtil.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/1250124009@qq.com/LLDateUtil",
   "license": {
@@ -12,7 +12,7 @@
     "1250124009@qq.com": "lile@icourt.cc"
   },
   "source": {
-    "git": "https://github.com/1250124009@qq.com/LLDateUtil.git",
+    "git": "https://github.com/CoderLiLe/LLDateUtil.git",
     "tag": "0.1.0"
   },
   "platforms": {

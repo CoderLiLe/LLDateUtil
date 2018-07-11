@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0EC9E7C2ED5704C35441A52A4378068F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		25848205D8F829917ED88E45C5EB9E68 /* Pods-LLDateUtil_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 995A2FF64C38B594D4E9C5F461ACE4C6 /* Pods-LLDateUtil_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26844280D8FA47E0EFD271E315B5547F /* LLDateUtil-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 13FB0DD147237489A6EEA6E22BBF09B6 /* LLDateUtil-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30CD83AB29EC4D20A385DBE0DF18E75D /* LLDateUtil-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F527FE268F39E90131CD249D961BE5E /* LLDateUtil-dummy.m */; };
 		30FD88CE67DF6D9FA5CAD5641455DFB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		403FB3A5A93C6D55198D8A576C59E522 /* Pods-LLDateUtil_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 31BCA40DB7354D457DD554EEA86BCF98 /* Pods-LLDateUtil_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		501C5A04EDDA63730A595674BE0800D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		54A0E03838337E3D7033FF167F21E688 /* NPTimePickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 10792F3AA8747345C4898738C8E38614 /* NPTimePickerCell.m */; };
 		63C0339F175156423298C94E3B176AF2 /* Pods-LLDateUtil_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF47AE5E0A04B623ACD5AC70F1B0CD0A /* Pods-LLDateUtil_Example-dummy.m */; };
 		6D4487F4CFABF3DC900F3E80D7778FDD /* Pods-LLDateUtil_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C97E2413F0D0584A9BC089F08321D1 /* Pods-LLDateUtil_Tests-dummy.m */; };
-		84857FC83B8BDD894751886D2A49AD4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		8C126ECCC4882B5ED5896FAA2E7236BC /* LLDateUtil-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DDC736B56AAFC48F32600C37F69A03DC /* LLDateUtil-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		91C6E1311F7FF5B2A4A2DBD16DD3B5DD /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 6121FF1FA7E0D07418EF4B8C255AB1EE /* ReplaceMe.m */; };
-		AEA739C0F2054F2B2E59549460EC6204 /* LLDateUtil-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 980F87B39A054FAB0EDB1722DA0BF66A /* LLDateUtil-dummy.m */; };
+		82B365F765AF896B6DCF9486C1C0BEF8 /* NPTimePickerCell.h in Headers */ = {isa = PBXBuildFile; fileRef = A03FE4764BB06025032C9D65EEAF08E5 /* NPTimePickerCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,7 +25,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0D125C173B82BDD0C58EE6F1C18CD7EB;
+			remoteGlobalIDString = 1E5615A0ECDEA69F4C43294C0913BAE3;
 			remoteInfo = LLDateUtil;
 		};
 /* End PBXContainerItemProxy section */
@@ -32,36 +33,37 @@
 /* Begin PBXFileReference section */
 		016D4530A081DF8A9938F773BA703AC9 /* Pods-LLDateUtil_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LLDateUtil_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		0815760DAC716E0BE45BC322EDB8A7C9 /* Pods-LLDateUtil_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LLDateUtil_Example.release.xcconfig"; sourceTree = "<group>"; };
+		10792F3AA8747345C4898738C8E38614 /* NPTimePickerCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NPTimePickerCell.m; path = LLDateUtil/Classes/NPTimePickerCell.m; sourceTree = "<group>"; };
+		13FB0DD147237489A6EEA6E22BBF09B6 /* LLDateUtil-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LLDateUtil-umbrella.h"; sourceTree = "<group>"; };
 		14C97E2413F0D0584A9BC089F08321D1 /* Pods-LLDateUtil_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LLDateUtil_Tests-dummy.m"; sourceTree = "<group>"; };
 		18D52243C02EAFAD38A97C207E8EE983 /* Pods-LLDateUtil_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LLDateUtil_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		18F8334571F0EDF1526CDFFB87FC8697 /* Pods_LLDateUtil_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LLDateUtil_Tests.framework; path = "Pods-LLDateUtil_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D567FAB6315AE3ACC413C26A856A6E3 /* Pods-LLDateUtil_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LLDateUtil_Example.modulemap"; sourceTree = "<group>"; };
-		2537496C1E61E0013C08C8EF8938B807 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		2E18C4F1D7912F39842F306EC897B9FE /* LLDateUtil-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LLDateUtil-prefix.pch"; sourceTree = "<group>"; };
 		31BCA40DB7354D457DD554EEA86BCF98 /* Pods-LLDateUtil_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LLDateUtil_Example-umbrella.h"; sourceTree = "<group>"; };
 		353415412E897497F54B4C704D698B86 /* LLDateUtil.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LLDateUtil.framework; path = LLDateUtil.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		39BA46F60A16E1C035868AEDF6380973 /* Pods-LLDateUtil_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LLDateUtil_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		434C33D035B7E3978DBD23747C793E0F /* LLDateUtil.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LLDateUtil.xcconfig; sourceTree = "<group>"; };
+		48E35081239D252602C8D9FCA134D57F /* LLDateUtil-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LLDateUtil-prefix.pch"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5BA6BB5ACF2618797097BD030E621596 /* Pods-LLDateUtil_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LLDateUtil_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6121FF1FA7E0D07418EF4B8C255AB1EE /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = LLDateUtil/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		5E387FBCBA3AE5B89C8E0A85B25B80B8 /* LLDateUtil.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = LLDateUtil.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		62BF220E3B5393BA239FD5AD9A0F71FD /* Pods-LLDateUtil_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LLDateUtil_Tests.modulemap"; sourceTree = "<group>"; };
-		77DE1EE2260DBFB82DA83C50BDC8F43E /* LLDateUtil.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = LLDateUtil.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		787E1A0859A61DC5709CF9859A384240 /* Pods-LLDateUtil_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LLDateUtil_Tests-resources.sh"; sourceTree = "<group>"; };
 		7B93A717218DBA1B88B8ABC742D101D0 /* Pods-LLDateUtil_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LLDateUtil_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		7BC974FC9035B4A4A24000CFB29F960D /* LLDateUtil.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LLDateUtil.xcconfig; sourceTree = "<group>"; };
+		7E93D68EC0FF004AA082C835AEEA45DE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F527FE268F39E90131CD249D961BE5E /* LLDateUtil-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LLDateUtil-dummy.m"; sourceTree = "<group>"; };
+		8BB93FCA8AF9077F3B8A229A2C5024F5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		8C04E0C904102E38702A40B6267B21C2 /* Pods-LLDateUtil_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LLDateUtil_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		934D0505E99AB5B3947C43DC6DEB0A21 /* LLDateUtil.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LLDateUtil.modulemap; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		980F87B39A054FAB0EDB1722DA0BF66A /* LLDateUtil-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LLDateUtil-dummy.m"; sourceTree = "<group>"; };
 		995A2FF64C38B594D4E9C5F461ACE4C6 /* Pods-LLDateUtil_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LLDateUtil_Tests-umbrella.h"; sourceTree = "<group>"; };
 		9A101286D9825BE27F15F05ABF00BB36 /* Pods-LLDateUtil_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LLDateUtil_Example-resources.sh"; sourceTree = "<group>"; };
+		9A2DA5A6AFFA4D1F40FE937676FC196C /* LLDateUtil.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LLDateUtil.modulemap; sourceTree = "<group>"; };
 		9FBB2B8B1BBB23CC0252BEFAC6313500 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A03FE4764BB06025032C9D65EEAF08E5 /* NPTimePickerCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NPTimePickerCell.h; path = LLDateUtil/Classes/NPTimePickerCell.h; sourceTree = "<group>"; };
 		A238152E02FB7906BCE1463C1CAB3472 /* Pods-LLDateUtil_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LLDateUtil_Example-frameworks.sh"; sourceTree = "<group>"; };
-		B77DCF92CB574546A831ECDB89084CAF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D26302C076B3AD74164EBA70414B2027 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		DDC736B56AAFC48F32600C37F69A03DC /* LLDateUtil-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LLDateUtil-umbrella.h"; sourceTree = "<group>"; };
 		DF47AE5E0A04B623ACD5AC70F1B0CD0A /* Pods-LLDateUtil_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LLDateUtil_Example-dummy.m"; sourceTree = "<group>"; };
 		E468550F5D2C1EBCD92FDC1B4E9ABB3D /* Pods_LLDateUtil_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LLDateUtil_Example.framework; path = "Pods-LLDateUtil_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E76566EADC7175779434769D0FFA9209 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		E8DDED06D950D7CA4B8564C9EFEE9769 /* Pods-LLDateUtil_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LLDateUtil_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F0D83CD7940CA8938E68DED519FD685D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAF778E61AC062820E1AB4936B63AED8 /* Pods-LLDateUtil_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LLDateUtil_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -76,11 +78,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9C041DB0C3DCDEBCD00520DE43E2268C /* Frameworks */ = {
+		8B686247F7B63F0833F29D5C053E08D1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84857FC83B8BDD894751886D2A49AD4F /* Foundation.framework in Frameworks */,
+				0EC9E7C2ED5704C35441A52A4378068F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,24 +97,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		04909E2C1BD9028C2705260E43161C44 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				D26302C076B3AD74164EBA70414B2027 /* LICENSE */,
-				77DE1EE2260DBFB82DA83C50BDC8F43E /* LLDateUtil.podspec */,
-				2537496C1E61E0013C08C8EF8938B807 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		13B1DDD025EBACA07715F87F6AD1074B /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				53086F01699C6D9EF5046580E8EED514 /* LLDateUtil */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		24F11516FD7D38BA4220D28F7664F8C1 /* Pods-LLDateUtil_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -131,15 +115,15 @@
 			path = "Target Support Files/Pods-LLDateUtil_Example";
 			sourceTree = "<group>";
 		};
-		319E08146C0344EC3A721E7D418F9DA6 /* Support Files */ = {
+		35C467B89F239AFFBBE8A0801733F9DF /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B77DCF92CB574546A831ECDB89084CAF /* Info.plist */,
-				934D0505E99AB5B3947C43DC6DEB0A21 /* LLDateUtil.modulemap */,
-				434C33D035B7E3978DBD23747C793E0F /* LLDateUtil.xcconfig */,
-				980F87B39A054FAB0EDB1722DA0BF66A /* LLDateUtil-dummy.m */,
-				2E18C4F1D7912F39842F306EC897B9FE /* LLDateUtil-prefix.pch */,
-				DDC736B56AAFC48F32600C37F69A03DC /* LLDateUtil-umbrella.h */,
+				7E93D68EC0FF004AA082C835AEEA45DE /* Info.plist */,
+				9A2DA5A6AFFA4D1F40FE937676FC196C /* LLDateUtil.modulemap */,
+				7BC974FC9035B4A4A24000CFB29F960D /* LLDateUtil.xcconfig */,
+				7F527FE268F39E90131CD249D961BE5E /* LLDateUtil-dummy.m */,
+				48E35081239D252602C8D9FCA134D57F /* LLDateUtil-prefix.pch */,
+				13FB0DD147237489A6EEA6E22BBF09B6 /* LLDateUtil-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/LLDateUtil";
@@ -163,15 +147,34 @@
 			path = "Target Support Files/Pods-LLDateUtil_Tests";
 			sourceTree = "<group>";
 		};
-		53086F01699C6D9EF5046580E8EED514 /* LLDateUtil */ = {
+		4AE0A5C42CFF969D279721B7239E6576 /* LLDateUtil */ = {
 			isa = PBXGroup;
 			children = (
-				6121FF1FA7E0D07418EF4B8C255AB1EE /* ReplaceMe.m */,
-				04909E2C1BD9028C2705260E43161C44 /* Pod */,
-				319E08146C0344EC3A721E7D418F9DA6 /* Support Files */,
+				A03FE4764BB06025032C9D65EEAF08E5 /* NPTimePickerCell.h */,
+				10792F3AA8747345C4898738C8E38614 /* NPTimePickerCell.m */,
+				5B191E7B45045B90601B742D4A743EE8 /* Pod */,
+				35C467B89F239AFFBBE8A0801733F9DF /* Support Files */,
 			);
 			name = LLDateUtil;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		4D2562B310B6144B42C885EA34A4D99A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4AE0A5C42CFF969D279721B7239E6576 /* LLDateUtil */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5B191E7B45045B90601B742D4A743EE8 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E76566EADC7175779434769D0FFA9209 /* LICENSE */,
+				5E387FBCBA3AE5B89C8E0A85B25B80B8 /* LLDateUtil.podspec */,
+				8BB93FCA8AF9077F3B8A229A2C5024F5 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
@@ -196,7 +199,7 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				13B1DDD025EBACA07715F87F6AD1074B /* Development Pods */,
+				4D2562B310B6144B42C885EA34A4D99A /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				7360E38B4C549BF76D5EC18B3F2DB798 /* Products */,
 				7FD43BEA09BB91D0900A59DEFFCF120D /* Targets Support Files */,
@@ -231,14 +234,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		690EC8CA8169B197B1AF87B935654DD4 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8C126ECCC4882B5ED5896FAA2E7236BC /* LLDateUtil-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		9535A7D5EE9707660F4E0F8C7F114095 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -247,16 +242,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BEE24E8085C837A8643AF32013D02FB1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26844280D8FA47E0EFD271E315B5547F /* LLDateUtil-umbrella.h in Headers */,
+				82B365F765AF896B6DCF9486C1C0BEF8 /* NPTimePickerCell.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0D125C173B82BDD0C58EE6F1C18CD7EB /* LLDateUtil */ = {
+		1E5615A0ECDEA69F4C43294C0913BAE3 /* LLDateUtil */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C80AB19B3E1CB00038FD1E25E53AB4E8 /* Build configuration list for PBXNativeTarget "LLDateUtil" */;
+			buildConfigurationList = CA1338D7AC71745417742D2AB35DB9C3 /* Build configuration list for PBXNativeTarget "LLDateUtil" */;
 			buildPhases = (
-				C7355194E50EEEAA79240D9FA5CF6E9F /* Sources */,
-				9C041DB0C3DCDEBCD00520DE43E2268C /* Frameworks */,
-				690EC8CA8169B197B1AF87B935654DD4 /* Headers */,
+				BF59F545A3492AEF5C5AA3E3C8681315 /* Sources */,
+				8B686247F7B63F0833F29D5C053E08D1 /* Frameworks */,
+				BEE24E8085C837A8643AF32013D02FB1 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -323,7 +327,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0D125C173B82BDD0C58EE6F1C18CD7EB /* LLDateUtil */,
+				1E5615A0ECDEA69F4C43294C0913BAE3 /* LLDateUtil */,
 				B030E33BF724E767C6D30076C2EAF91F /* Pods-LLDateUtil_Example */,
 				A3183D6E3220A64E51227C2C0D93DF85 /* Pods-LLDateUtil_Tests */,
 			);
@@ -339,12 +343,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C7355194E50EEEAA79240D9FA5CF6E9F /* Sources */ = {
+		BF59F545A3492AEF5C5AA3E3C8681315 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEA739C0F2054F2B2E59549460EC6204 /* LLDateUtil-dummy.m in Sources */,
-				91C6E1311F7FF5B2A4A2DBD16DD3B5DD /* ReplaceMe.m in Sources */,
+				30CD83AB29EC4D20A385DBE0DF18E75D /* LLDateUtil-dummy.m in Sources */,
+				54A0E03838337E3D7033FF167F21E688 /* NPTimePickerCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,12 +366,71 @@
 		4E3117401C6FD5CB6B8D8825BD772680 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LLDateUtil;
-			target = 0D125C173B82BDD0C58EE6F1C18CD7EB /* LLDateUtil */;
+			target = 1E5615A0ECDEA69F4C43294C0913BAE3 /* LLDateUtil */;
 			targetProxy = 13204DAA05C255752101E4AA2479AECF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		0DE50422F3C86443E6C991D2421C0C09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BC974FC9035B4A4A24000CFB29F960D /* LLDateUtil.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LLDateUtil/LLDateUtil-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LLDateUtil/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LLDateUtil/LLDateUtil.modulemap";
+				PRODUCT_NAME = LLDateUtil;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1EFE0B40D7A8367591DB72D422772FB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BC974FC9035B4A4A24000CFB29F960D /* LLDateUtil.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LLDateUtil/LLDateUtil-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LLDateUtil/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LLDateUtil/LLDateUtil.modulemap";
+				PRODUCT_NAME = LLDateUtil;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		3AC21415CC2287F0BC08C274B8521D33 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E8DDED06D950D7CA4B8564C9EFEE9769 /* Pods-LLDateUtil_Tests.release.xcconfig */;
@@ -464,35 +527,6 @@
 			};
 			name = Debug;
 		};
-		5618FF0A9F3DC518B2F3BE7E908561D2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 434C33D035B7E3978DBD23747C793E0F /* LLDateUtil.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LLDateUtil/LLDateUtil-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LLDateUtil/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LLDateUtil/LLDateUtil.modulemap";
-				PRODUCT_NAME = LLDateUtil;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		827269710C98D60C14D46BC6AF9BF728 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -548,36 +582,6 @@
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		8CD9674DAD26EBD4BC3888B35933BAE4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 434C33D035B7E3978DBD23747C793E0F /* LLDateUtil.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LLDateUtil/LLDateUtil-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LLDateUtil/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LLDateUtil/LLDateUtil.modulemap";
-				PRODUCT_NAME = LLDateUtil;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -708,11 +712,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C80AB19B3E1CB00038FD1E25E53AB4E8 /* Build configuration list for PBXNativeTarget "LLDateUtil" */ = {
+		CA1338D7AC71745417742D2AB35DB9C3 /* Build configuration list for PBXNativeTarget "LLDateUtil" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5618FF0A9F3DC518B2F3BE7E908561D2 /* Debug */,
-				8CD9674DAD26EBD4BC3888B35933BAE4 /* Release */,
+				0DE50422F3C86443E6C991D2421C0C09 /* Debug */,
+				1EFE0B40D7A8367591DB72D422772FB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

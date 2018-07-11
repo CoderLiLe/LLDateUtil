@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "NPTimePickerCell.h"
 
 FOUNDATION_EXPORT double LLDateUtilVersionNumber;
 FOUNDATION_EXPORT const unsigned char LLDateUtilVersionString[];
